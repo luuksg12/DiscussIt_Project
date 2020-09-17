@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/post', function () {
+    $post = [
+        'title'=>'I am in love with laravel',
+        'text'=>'It is just so cool!!! I cant get enough of it :D',
+        'author'=>'superPoster2773',
+        'likes'=>'10',
+    ];
+    return view('post', $post);
+});
