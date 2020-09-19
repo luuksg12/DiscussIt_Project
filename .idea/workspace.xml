@@ -11,9 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Learned about blade {{$variable}} and @if() @endif">
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +20,123 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/DiscussIt_Website/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1he511SrORatIhDRJh5mzLYTa1q" />
   <component name="ProjectLevelVcsManager">
@@ -38,7 +149,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/DiscussIt_Website/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,7 +172,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600358498560</updated>
-      <workItem from="1600358499615" duration="7223000" />
+      <workItem from="1600358499615" duration="7381000" />
+      <workItem from="1600507088131" duration="81000" />
+      <workItem from="1600507170800" duration="2885000" />
     </task>
     <task id="LOCAL-00001" summary="Re-upload webpage">
       <created>1600358596868</created>
@@ -84,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600358770115</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Learned about blade {{$variable}} and @if() @endif">
+      <created>1600375390055</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600375390055</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +220,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Re-upload webpage" />
@@ -108,14 +229,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Learned about blade {{$variable}} and @if() @endif" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1600358529425">
+    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1600507167961">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1060" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1600358529425" />
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600358798116">
+    <state x="1060" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1600507167961" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600375394492">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1600358798116" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1600375394492" />
     <state x="1097" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600358604330">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

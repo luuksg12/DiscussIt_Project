@@ -8,13 +8,13 @@
     <body>
         <h1>post</h1>
         <a href="/">Home page</a>
-        <h1>{{$title}}</h1>
-        <h5>{{$author}}</h5>
-        <p>{{$text}}</p>
+        <div>
+            @for($i =0;$i<count($posts);$i++)
+                <h1>Title : {{$posts[$i]['title']}}</h1>
+                <p>Message : {{$posts[$i]['text']}}</p>
+            @endfor
+        </div>
 
-        @if($likes == 10)
-        <h5>{{$likes}}</h5>
-        @endif
 
     </body>
 </html>
