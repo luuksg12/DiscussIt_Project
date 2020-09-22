@@ -10,9 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Learned about blade {{$variable}} and @if() @endif">
+    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Made posts out of arrays using forloops">
+      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/postLayout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +176,9 @@
       <updated>1600358498560</updated>
       <workItem from="1600358499615" duration="7381000" />
       <workItem from="1600507088131" duration="81000" />
-      <workItem from="1600507170800" duration="2885000" />
+      <workItem from="1600507170800" duration="2941000" />
+      <workItem from="1600614298453" duration="2082000" />
+      <workItem from="1600771612087" duration="3681000" />
     </task>
     <task id="LOCAL-00001" summary="Re-upload webpage">
       <created>1600358596868</created>
@@ -204,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600375390055</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Made posts out of arrays using forloops">
+      <created>1600510874183</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600510874183</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,17 +237,22 @@
     <MESSAGE value="Re-upload webpage" />
     <MESSAGE value="page edit" />
     <MESSAGE value="Learned about blade {{$variable}} and @if() @endif" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learned about blade {{$variable}} and @if() @endif" />
+    <MESSAGE value="Made posts out of arrays using forloops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made posts out of arrays using forloops" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1035" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600774470128">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1035" y="322" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1600774470128" />
     <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1600507167961">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1060" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1600507167961" />
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600375394492">
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600510881939">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1600375394492" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1600510881939" />
     <state x="1097" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600358604330">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
