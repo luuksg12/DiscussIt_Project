@@ -1,0 +1,6 @@
+body {background-color: #d67974}
+h2 {color: #5e1700}
+#post {border: #5e1700 2px solid;
+    outline: #1b181b 5px;
+    margin-top: 20px;
+    text-align: center;}
