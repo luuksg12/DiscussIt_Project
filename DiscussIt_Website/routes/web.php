@@ -16,14 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/post', function () {
+Route::get('/posts', '\App\Http\Controllers\PostController@index');
+Route::get('/singlepost/{id}', '\App\Http\Controllers\PostController@show');
 
-    $postsarray = [
-        ['title'=>'I am in love with laravel', 'text'=>'It is just so cool!!! I cant get enough of it :D'],
-        ['title'=>'What about aliens?', 'text'=>'They might really exist if you think about it?!'],
-        ['title'=>'Should pineapple on pizza be illegal?', 'text'=>'Like honestly its probably the most unsettling thing humans have ever done...'],
-        ['title'=>'Why cant you cycle on they highway?????', 'text'=>'I can cycle about 130km/h if I try. So why cant I cycle on the highway?']
-    ];
-    $name = request('authorname');
-    return view('post',['posts' => $postsarray,'author' => $name]);
-});

@@ -12,7 +12,7 @@
 
 <body class="antialiased">
     <nav>
-        <a href="/">home</a> <a href="/post">post</a>
+        <a href="/">home</a> <a href="/posts">post list</a> <a href="/singlepost/1">single post</a>
     </nav>
 
 @yield('post')

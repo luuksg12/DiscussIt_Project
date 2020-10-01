@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Added basic css and images.">
+      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/singlepost.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/postLayout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/postLayout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +157,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DiscussIt_Website/resources/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -168,14 +169,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\public\img" />
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\public\css" />
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\views" />
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\views" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -193,7 +194,7 @@
       <workItem from="1600771612087" duration="5672000" />
       <workItem from="1600805206404" duration="1771000" />
       <workItem from="1601304565325" duration="2013000" />
-      <workItem from="1601575119563" duration="411000" />
+      <workItem from="1601575119563" duration="2504000" />
     </task>
     <task id="LOCAL-00001" summary="Re-upload webpage">
       <created>1600358596868</created>
@@ -244,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601306559047</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added basic css and images.">
+      <created>1601575673551</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601575673551</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,10 +288,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1060" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1600507167961" />
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601306563116">
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601575678204">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1601306563116" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1601575678204" />
     <state x="1097" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601306491252">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
