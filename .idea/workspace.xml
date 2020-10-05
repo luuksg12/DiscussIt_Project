@@ -10,11 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Added basic css and images.">
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/singlepost.blade.php" afterDir="false" />
+    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Integrated Controllers into my project, allowing me to work on functions in a separate file and keep my web.php file clean">
+      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/databaseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Models/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/database/migrations/2020_10_05_083553_post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/postLayout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/postLayout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +157,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/DiscussIt_Website/resources/views" />
@@ -169,14 +172,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\public\img" />
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\public\css" />
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\views" />
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\views" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -194,7 +197,8 @@
       <workItem from="1600771612087" duration="5672000" />
       <workItem from="1600805206404" duration="1771000" />
       <workItem from="1601304565325" duration="2013000" />
-      <workItem from="1601575119563" duration="2504000" />
+      <workItem from="1601575119563" duration="3256000" />
+      <workItem from="1601885328120" duration="4235000" />
     </task>
     <task id="LOCAL-00001" summary="Re-upload webpage">
       <created>1600358596868</created>
@@ -252,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601575673551</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Integrated Controllers into my project, allowing me to work on functions in a separate file and keep my web.php file clean">
+      <created>1601577786370</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601577786370</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,13 +282,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Re-upload webpage" />
     <MESSAGE value="page edit" />
     <MESSAGE value="Learned about blade {{$variable}} and @if() @endif" />
     <MESSAGE value="Made posts out of arrays using forloops" />
     <MESSAGE value="Learned to use layouts:(sections and yields)." />
     <MESSAGE value="Added basic css and images." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added basic css and images." />
+    <MESSAGE value="Integrated Controllers into my project, allowing me to work on functions in a separate file and keep my web.php file clean" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrated Controllers into my project, allowing me to work on functions in a separate file and keep my web.php file clean" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1035" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600774470128">
@@ -288,10 +301,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1060" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1600507167961" />
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601575678204">
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601577789760">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1601575678204" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1601577789760" />
     <state x="1097" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601306491252">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
