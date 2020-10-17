@@ -16,7 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Integrated Controllers into my project, allowing me to work on functions in a separate file and keep my web.php file clean">
+    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Lost about a weeks worth of commits due to a git checkout issue that caused me to lose all my commits. I lost bootstrap, a login system and a post delete system.">
+      <change afterPath="$PROJECT_DIR$/git" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/singlepost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/singlepost.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -264,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601577786370</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Lost about a weeks worth of commits due to a git checkout issue that caused me to lose all my commits. I lost bootstrap, a login system and a post delete system.">
+      <created>1602945448634</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602945448634</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +300,8 @@
     <MESSAGE value="Learned to use layouts:(sections and yields)." />
     <MESSAGE value="Added basic css and images." />
     <MESSAGE value="Integrated Controllers into my project, allowing me to work on functions in a separate file and keep my web.php file clean" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integrated Controllers into my project, allowing me to work on functions in a separate file and keep my web.php file clean" />
+    <MESSAGE value="Lost about a weeks worth of commits due to a git checkout issue that caused me to lose all my commits. I lost bootstrap, a login system and a post delete system." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lost about a weeks worth of commits due to a git checkout issue that caused me to lose all my commits. I lost bootstrap, a login system and a post delete system." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1035" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600774470128">
