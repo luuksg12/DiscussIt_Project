@@ -25,14 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Lost about a weeks worth of commits due to a git checkout issue that caused me to lose all my commits. I lost bootstrap, a login system and a post delete system.">
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/create.blade.php" afterDir="false" />
+    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Fixed code again entered, now working in master branch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/postLayout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/postLayout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/singlepost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/singlepost.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -288,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602945448634</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fixed code again entered, now working in master branch">
+      <created>1603204112229</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603204112229</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +319,8 @@
     <MESSAGE value="Added basic css and images." />
     <MESSAGE value="Integrated Controllers into my project, allowing me to work on functions in a separate file and keep my web.php file clean" />
     <MESSAGE value="Lost about a weeks worth of commits due to a git checkout issue that caused me to lose all my commits. I lost bootstrap, a login system and a post delete system." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lost about a weeks worth of commits due to a git checkout issue that caused me to lose all my commits. I lost bootstrap, a login system and a post delete system." />
+    <MESSAGE value="Fixed code again entered, now working in master branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed code again entered, now working in master branch" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1035" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600774470128">
@@ -331,10 +335,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1060" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1600507167961" />
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603203348123">
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603204115739">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1603203348123" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1603204115739" />
     <state x="1097" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603203380342">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -343,15 +347,5 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="936" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1603203445151" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/DiscussIt_Website/resources/views/singlepost.blade.php</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

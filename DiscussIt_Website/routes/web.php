@@ -20,4 +20,5 @@ Route::get('/posts', '\App\Http\Controllers\PostController@index');
 Route::get('/singlepost/{id}', '\App\Http\Controllers\PostController@show');
 Route::get('/create', '\App\Http\Controllers\PostController@create');
 Route::post('/posts', '\App\Http\Controllers\PostController@store');
+Route::delete('/posts/{id}', '\App\Http\Controllers\PostController@destroy');
 

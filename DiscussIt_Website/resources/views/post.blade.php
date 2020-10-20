@@ -10,6 +10,11 @@
                 <h4>Post number : {{$post->id}} <br>
                     Author : {{$post->author}}</h4>
                 <p>Message : {{$post->text}}</p>
+                <form action="/posts/{{$post->id}}" method="POST">
+                    @csrf
+                    @method('DELETE')
+                    <button>Remove post</button>
+                </form>
                 </div>
             @endforeach
         </div>
