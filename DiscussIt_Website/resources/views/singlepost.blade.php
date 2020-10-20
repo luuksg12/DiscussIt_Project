@@ -1,4 +1,4 @@
-@extends("layouts.postLayout")
+@extends("layouts.app")
         @section('title')
             <h1>Singlepost {{$id}}</h1>
         @endsection

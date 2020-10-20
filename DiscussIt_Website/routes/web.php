@@ -22,3 +22,7 @@ Route::get('/create', '\App\Http\Controllers\PostController@create');
 Route::post('/posts', '\App\Http\Controllers\PostController@store');
 Route::delete('/posts/{id}', '\App\Http\Controllers\PostController@destroy');
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
