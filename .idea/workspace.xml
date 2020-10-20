@@ -6,6 +6,15 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
@@ -17,9 +26,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Lost about a weeks worth of commits due to a git checkout issue that caused me to lose all my commits. I lost bootstrap, a login system and a post delete system.">
-      <change afterPath="$PROJECT_DIR$/git" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/postLayout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/postLayout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/singlepost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/singlepost.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +163,7 @@
       <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/psr/event-dispatcher" />
       <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/psr/container" />
       <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/composer" />
+      <path value="$PROJECT_DIR$/DiscussIt_Website/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1he511SrORatIhDRJh5mzLYTa1q" />
@@ -175,14 +190,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\public\img" />
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\public\css" />
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\views" />
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\views" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -308,21 +323,35 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1035" y="322" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1600774470128" />
+    <state x="248" y="86" key="DiffContextDialog" timestamp="1603203347211">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="248" y="86" key="DiffContextDialog/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1603203347211" />
     <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1600507167961">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1060" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1600507167961" />
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601577789760">
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603203348123">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1601577789760" />
-    <state x="1097" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601306491252">
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1603203348123" />
+    <state x="1097" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603203380342">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1097" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1601306491252" />
-    <state x="936" y="240" key="run.anything.popup" timestamp="1601306382574">
+    <state x="1097" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1603203380342" />
+    <state x="936" y="240" key="run.anything.popup" timestamp="1603203445151">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="936" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1601306382574" />
+    <state x="936" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1603203445151" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/DiscussIt_Website/resources/views/singlepost.blade.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -2,7 +2,7 @@
         @section('title')
             <h1>Posts</h1>
         @endsection
-        @section("post")
+        @section("content")
         <div id="postholder">
             @foreach($posts as $post)
                 <div id="post">

@@ -2,7 +2,7 @@
         @section('title')
             <h1>Singlepost {{$id}}</h1>
         @endsection
-        @section("post")
+        @section("content")
         <div id="postholder">
             <div id="post">
                 <h2>Title : {{$post[$id]['title']}}</h2>
