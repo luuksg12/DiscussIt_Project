@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Post;
 use PhpParser\Node\Expr\PostInc;
+use Auth;
 
 class PostController extends Controller
 {
@@ -19,13 +20,8 @@ class PostController extends Controller
         return view('post',['posts' => $posts]);
     }
     public function show($id){
-        $postsarray = [
-            ['title'=>'I am in love with laravel', 'text'=>'It is just so cool!!! I cant get enough of it :D'],
-            ['title'=>'What about aliens?', 'text'=>'They might really exist if you think about it?!'],
-            ['title'=>'Should pineapple on pizza be illegal?', 'text'=>'Like honestly its probably the most unsettling thing humans have ever done...'],
-            ['title'=>'Why cant you cycle on they highway?????', 'text'=>'I can cycle about 130km/h if I try. So why cant I cycle on the highway?']
-        ];
-        return view('singlepost',['post' => $postsarray,'id'=>$id]);
+        $post = Post::findOrFail($id);
+        return view('singlepost',['post' => $post]);
     }
     public function create(){
         return view('create');
@@ -34,7 +30,9 @@ class PostController extends Controller
         $post = new Post();
         $post->title = request('title');
         $post->text = request('text');
-        $post->author = "placehold Author";
+
+        $post->author = auth()->user()->name.' - #'.auth()->user()->id;
+
         $post->save();
         return redirect("/posts");
     }
