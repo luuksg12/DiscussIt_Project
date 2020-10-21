@@ -25,41 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Remade delete function">
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/js/components/ExampleComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/app.blade.php" afterDir="false" />
+    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Integrated login system and bootstrap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/singlepost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/singlepost.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,14 +185,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\public\img" />
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\public\css" />
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\views" />
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\views" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
