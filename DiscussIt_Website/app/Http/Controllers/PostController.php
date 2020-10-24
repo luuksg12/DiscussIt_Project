@@ -15,9 +15,14 @@ class PostController extends Controller
 
     public function index(){
 
+        if(auth()->user()->role=='2'){
+            $admin = true;
+        }else{
+            $admin = false;
+        }
         $posts = Post::all();
 
-        return view('post',['posts' => $posts]);
+        return view('post',['posts' => $posts, 'admin' => $admin]);
     }
     public function show($id){
         $post = Post::findOrFail($id);
