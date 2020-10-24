@@ -25,12 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Bug fix">
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/database/migrations/2020_10_24_133854_add_votes_and_role_to_users.php" afterDir="false" />
+    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Made my own role system and added administration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/database/factories/UserFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -316,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603300077710</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Made my own role system and added administration">
+      <created>1603547668857</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603547668857</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +364,8 @@
     <MESSAGE value="Remade delete function" />
     <MESSAGE value="Added bootstrap for navbar and added delete option in singlepost.blade.php" />
     <MESSAGE value="Bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fix" />
+    <MESSAGE value="Made my own role system and added administration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made my own role system and added administration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1035" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600774470128">
