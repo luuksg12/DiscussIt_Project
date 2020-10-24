@@ -33,10 +33,13 @@
                         <a class="nav-link" href="posts">All posts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="singlepost/1">Single post</a>
+                        <a class="nav-link" href="singlepost/6">Single post</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="create">Create</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admin">Administration</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
