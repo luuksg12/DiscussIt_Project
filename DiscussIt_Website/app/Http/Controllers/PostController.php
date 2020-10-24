@@ -14,22 +14,16 @@ class PostController extends Controller
     }
 
     public function index(){
-
-        if(auth()->user()->role=='2'){
-            $admin = true;
-        }else{
-            $admin = false;
-        }
-
-        $name = auth()->user()->name;
-
         $posts = Post::all();
-
-        return view('post',['posts' => $posts, 'admin' => $admin, 'name' => $name]);
+        return view('post',['posts' => $posts]);
     }
     public function show($id){
         $post = Post::findOrFail($id);
         return view('singlepost',['post' => $post]);
+    }
+    public function myposts(){
+        $posts = Post::all();
+        return view('myposts',['posts' => $posts]);
     }
     public function create(){
         return view('create');
@@ -39,7 +33,7 @@ class PostController extends Controller
         $post->title = request('title');
         $post->text = request('text');
 
-        $post->author = auth()->user()->name.' - #'.auth()->user()->id;
+        $post->author = auth()->user()->name;
 
         $post->save();
         return redirect("/posts");
