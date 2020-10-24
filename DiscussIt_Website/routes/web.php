@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/posts', '\App\Http\Controllers\PostController@index')->middleware('auth');
-Route::get('/admin', function (){return view('admin');});
+Route::get('/admin', function (){return view('admin');})->middleware('auth','admin');
 Route::get('/singlepost/{id}', '\App\Http\Controllers\PostController@show')->middleware('auth');
 Route::get('/create', '\App\Http\Controllers\PostController@create')->middleware('auth');
 Route::post('/posts', '\App\Http\Controllers\PostController@store')->middleware('auth');

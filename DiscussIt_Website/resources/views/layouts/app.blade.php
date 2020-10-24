@@ -29,6 +29,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
+                    @if(Auth::guest() or Auth::user()->role=='1')
+                    <li class="nav-item">
+                        <a class="nav-link" href="posts">All posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="singlepost/6">Single post</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="create">Create</a>
+                    </li>
+                    @else
                     <li class="nav-item">
                         <a class="nav-link" href="posts">All posts</a>
                     </li>
@@ -41,6 +52,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="admin">Administration</a>
                     </li>
+                    @endif
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     @guest

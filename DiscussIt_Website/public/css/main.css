@@ -4,3 +4,6 @@ h2 {color: #5e1700}
     outline: #1b181b 5px;
     margin-top: 20px;
     text-align: center;}
+.border {
+    border-width:2px !important;
+}
