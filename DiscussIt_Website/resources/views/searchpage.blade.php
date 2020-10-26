@@ -7,6 +7,7 @@
                 </form>
             </div>
         </div>
+        @if(isset($post))
         @foreach($post as $posts)
         <div id="postholder">
             <div class="col-auto border border-dark align text-center mb-4 pb-2" >
@@ -28,4 +29,5 @@
             </div>
         </div>
         @endforeach
+        @endif
         @endsection

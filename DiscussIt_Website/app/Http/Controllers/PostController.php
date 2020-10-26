@@ -24,7 +24,7 @@ class PostController extends Controller
     public function search(Request $request){
         $search = $request->get('search');
         $posts = DB::table('posts')->WHERE('title','LIKE', "%".$search."%")->get();
-        return view('singlepost',['post' => $posts]);
+        return view('searchpage',['post' => $posts]);
     }
     public function myposts(){
         $posts = Post::all();

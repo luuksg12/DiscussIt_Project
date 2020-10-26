@@ -34,7 +34,7 @@
                         <a class="nav-link" href="routes">All posts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="singlepost">Single post</a>
+                        <a class="nav-link" href="searchpage">Single post</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="myposts">My posts</a>
@@ -47,7 +47,7 @@
                         <a class="nav-link" href="posts">All posts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="singlepost/6">Single post</a>
+                        <a class="nav-link" href="searchpage">Single post</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="create">Create</a>
