@@ -19,7 +19,7 @@ class IsAdmin
         if(auth()->user()->role=="2"){
             return $next($request);
         }else{
-            abort(403, 'Unauthorized action.');
+            abort(403, 'Unauthorized action. >:(');
         }
     }
 }

@@ -26,6 +26,10 @@ class PostController extends Controller
         $posts = DB::table('posts')->WHERE('title','LIKE', "%".$search."%")->get();
         return view('searchpage',['post' => $posts]);
     }
+    public function findreports(){
+        $posts = DB::table('posts')->WHERE('reported','=', 1)->get();
+        return view('admin',['post' => $posts]);
+    }
     public function myposts(){
         $posts = Post::all();
         return view('myposts',['posts' => $posts]);
