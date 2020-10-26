@@ -3,7 +3,7 @@
         <div class="row justify-content-center padding">
             <div class="col-md-8 ftco-animate fadeInUp ftco-animated">
                 <form action="/search" method="GET" class="domain-form">
-                    <div class="form-group d-md-flex"> <input type="text" name="search" class="form-control px-4" placeholder="Look for a specific post using post ID..."> <input type="submit" class="search-domain btn btn-primary px-5" value="Search Domain"> </div>
+                    <div class="form-group d-md-flex"> <input type="text" name="search" class="form-control px-4" placeholder="Look for a specific post using its title..."> <input type="submit" class="search-domain btn btn-primary px-5" value="Search Posts"> </div>
                 </form>
             </div>
         </div>

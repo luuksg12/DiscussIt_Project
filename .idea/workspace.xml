@@ -25,11 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Made working searchbar. (Push before refactor of file name).">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/singlepost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/searchpage.blade.php" afterDir="false" />
+    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Refactor complete, also added a check if the json exists. If not It wont run a piece of code. This prevents errors.">
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/searchpage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/searchpage.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603746831507</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Refactor complete, also added a check if the json exists. If not It wont run a piece of code. This prevents errors.">
+      <created>1603747197360</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1603747197360</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +411,8 @@
     <MESSAGE value="Added bootstrap to make the main page look decent. Also added a vote button (not functional)" />
     <MESSAGE value="Added a myposts page. Including the option to delete those posts." />
     <MESSAGE value="Made working searchbar. (Push before refactor of file name)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made working searchbar. (Push before refactor of file name)." />
+    <MESSAGE value="Refactor complete, also added a check if the json exists. If not It wont run a piece of code. This prevents errors." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor complete, also added a check if the json exists. If not It wont run a piece of code. This prevents errors." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1035" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600774470128">
@@ -422,10 +427,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1060" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1600507167961" />
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603746854152">
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603747200903">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1603746854152" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1603747200903" />
     <state x="1097" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603203380342">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
