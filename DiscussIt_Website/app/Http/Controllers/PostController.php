@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Post;
+use Illuminate\Support\Facades\DB;
 use PhpParser\Node\Expr\PostInc;
 use Auth;
 
@@ -17,9 +18,13 @@ class PostController extends Controller
         $posts = Post::all();
         return view('post',['posts' => $posts]);
     }
-    public function show($id){
-        $post = Post::findOrFail($id);
-        return view('singlepost',['post' => $post]);
+    public function searchpage(){
+        return view('searchpage');
+    }
+    public function search(Request $request){
+        $search = $request->get('search');
+        $posts = DB::table('posts')->WHERE('title','LIKE', "%".$search."%")->get();
+        return view('singlepost',['post' => $posts]);
     }
     public function myposts(){
         $posts = Post::all();
