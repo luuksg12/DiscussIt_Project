@@ -43,9 +43,10 @@ class PostController extends Controller
         $post->delete();
         return redirect("/posts");
     }
-    public function vote($id){
+    public function vote(Request $request, $id){
         $post = Post::findOrFail($id);
-        $post->vote =+ 1;
+        $post->votes = $post->votes + 1;
+        $post->save();
         return redirect("/posts");
     }
 }

@@ -1,7 +1,4 @@
 @extends("layouts.app")
-        @section('title')
-            <h1>Posts</h1>
-        @endsection
         @section("content")
         <h2 class="display-4 text-center">Posts</h2>
         <div class="container">
@@ -13,11 +10,13 @@
                     Author : {{$post->author}}</h4>
                 <p class="lead">Message : {{$post->text}}</p>
                 <p>Votes : {{$post->votes}}</p>
+
                 <form action="/posts/{{$post->id}}" method="POST">
                     @csrf
-                    @method('VOTE')
-                    <button class="btn btn-primary btn-block mb-2">upvote</button>
+                    @method("put")
+                    <button class="btn btn-primary btn-block mb-2" >upvote</button>
                 </form>
+
                 @if($post->author == Auth::user()->name or auth()->user()->role=='2')
                     <form action="/posts/{{$post->id}}" method="POST">
                         @csrf

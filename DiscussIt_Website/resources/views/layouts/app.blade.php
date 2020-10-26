@@ -31,10 +31,10 @@
                 <ul class="navbar-nav">
                     @if(Auth::guest() or Auth::user()->role=='1')
                     <li class="nav-item">
-                        <a class="nav-link" href="posts">All posts</a>
+                        <a class="nav-link" href="routes">All posts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="singlepost/6">Single post</a>
+                        <a class="nav-link" href="singlepost/1">Single post</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="myposts">My posts</a>
