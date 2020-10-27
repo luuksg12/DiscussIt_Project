@@ -47,6 +47,9 @@
                         <a class="nav-link" href="posts">All posts</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="myposts">My posts</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="searchpage">Single post</a>
                     </li>
                     <li class="nav-item">
