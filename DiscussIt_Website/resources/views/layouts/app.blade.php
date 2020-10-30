@@ -31,32 +31,32 @@
                 <ul class="navbar-nav">
                     @if(Auth::guest() or Auth::user()->role=='1')
                     <li class="nav-item">
-                        <a class="nav-link" href="routes">All posts</a>
+                        <a class="nav-link" href={{route('posts')}}>All posts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="searchpage">Single post</a>
+                        <a class="nav-link" href={{route('searchpage')}}>Search for a post</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="myposts">My posts</a>
+                        <a class="nav-link" href={{route('myposts')}}>My posts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="create">Create</a>
+                        <a class="nav-link" href={{route('create')}}>Create</a>
                     </li>
                     @else
                     <li class="nav-item">
-                        <a class="nav-link" href="posts">All posts</a>
+                        <a class="nav-link" href={{route('posts')}}>All posts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="myposts">My posts</a>
+                        <a class="nav-link" href={{route('myposts')}}>My posts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="searchpage">Single post</a>
+                        <a class="nav-link" href={{route('searchpage')}}>Single post</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="create">Create</a>
+                        <a class="nav-link" href={{route('create')}}>Create</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="admin">Administration</a>
+                        <a class="nav-link" href={{route('admin')}}>Administration</a>
                     </li>
                     @endif
                 </ul>

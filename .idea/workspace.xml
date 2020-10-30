@@ -25,9 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Made the admin page so admins can only see reported items.">
+    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Fixed navbar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
