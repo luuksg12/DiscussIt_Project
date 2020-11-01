@@ -37,7 +37,8 @@
                 <form action="/posts/{{$post->id}}" method="POST">
                     @csrf
                     @method("put")
-                    <button class="btn btn-primary btn-block mb-2" >upvote</button>
+                    <button class="btn btn-danger btn-block mb-2 w-25 ml-auto mr-auto" name="button" value="1" >report</button>
+                    <button class="btn btn-primary btn-block mb-2" name="button" value="2" >upvote</button>
                 </form>
 
                 @if($post->author == Auth::user()->name or auth()->user()->role=='2')
