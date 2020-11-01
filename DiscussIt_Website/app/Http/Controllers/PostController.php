@@ -10,12 +10,9 @@ use Auth;
 
 class PostController extends Controller
 {
-    public function databaseLoad(){
-
-    }
-
     public function index(){
         $posts = Post::all();
+        $this->votecheck();
         return view('post',['posts' => $posts]);
     }
     public function searchpage(){
@@ -32,6 +29,7 @@ class PostController extends Controller
     }
     public function myposts(){
         $posts = DB::table('posts')->WHERE('author','=', auth()->user()->name)->get();
+        $this->votecheck();
         return view('myposts',['posts' => $posts]);
     }
     public function create(){
@@ -56,6 +54,19 @@ class PostController extends Controller
         $post = Post::findOrFail($id);
         $post->votes = $post->votes + 1;
         $post->save();
+
         return redirect("/posts");
+    }
+    public function votecheck(){
+        $totalvote = 0;
+        $posts = DB::table('posts')->WHERE('author','=', auth()->user()->name)->get();
+        foreach ($posts as $post){
+            $currentvote = $post->votes;
+            $totalvote = $totalvote + $currentvote;
+            auth()->user()->votes = $totalvote;
+        }
+        if($totalvote >= 10 and auth()->user()->role != 2){
+            auth()->user()->role = 3;
+        }
     }
 }

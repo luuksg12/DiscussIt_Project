@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>DiscussIt</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -29,7 +29,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    @if(Auth::guest() or Auth::user()->role=='1')
+                    @if(Auth::guest() or Auth::user()->role == '1' or Auth::user()->role == '3')
                     <li class="nav-item">
                         <a class="nav-link" href={{route('posts')}}>All posts</a>
                     </li>
