@@ -25,6 +25,7 @@ Route::get('/create', '\App\Http\Controllers\PostController@create')->middleware
 Route::post('/posts', '\App\Http\Controllers\PostController@store')->middleware('auth')->name('store');
 Route::delete('/posts/{id}', '\App\Http\Controllers\PostController@destroy')->middleware('auth')->name('destroy');
 Route::put('/posts/{id}', '\App\Http\Controllers\PostController@vote')->middleware('auth')->name('vote');
+Route::put('/posts', '\App\Http\Controllers\PostController@adminposts')->middleware('auth')->name('adminposts');
 
 
 Auth::routes();

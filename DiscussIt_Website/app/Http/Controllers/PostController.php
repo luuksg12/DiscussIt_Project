@@ -12,8 +12,9 @@ class PostController extends Controller
 {
     public function index(){
         $posts = Post::all();
+        $adminposts = auth()->user()->status;
         $this->votecheck();
-        return view('post',['posts' => $posts]);
+        return view('post',['posts' => $posts, 'adminposts'=>$adminposts]);
     }
     public function searchpage(){
         return view('searchpage');
@@ -68,5 +69,17 @@ class PostController extends Controller
         if($totalvote >= 10 and auth()->user()->role != 2){
             auth()->user()->role = 3;
         }
+    }
+    public function adminposts()
+    {
+        $user = auth()->user();
+        if($user->status == 1) {
+            $user->status = 0;
+        }else {
+            $user->status = 1;
+        }
+        $user->save();
+
+        return redirect("/posts");
     }
 }

@@ -25,12 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Removed if-check from blade and only gave the correct data from the controller">
+    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Added advanced authentication. 10 votes on all posts combined grants role '3'">
+      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/database/migrations/2020_11_01_165355_add_status_to_users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/myposts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/myposts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +220,7 @@
       <workItem from="1603740918457" duration="2192000" />
       <workItem from="1603792757311" duration="153000" />
       <workItem from="1604157365259" duration="733000" />
-      <workItem from="1604245617175" duration="2675000" />
+      <workItem from="1604245617175" duration="6178000" />
     </task>
     <task id="LOCAL-00001" summary="Re-upload webpage">
       <created>1600358596868</created>
@@ -397,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604246336429</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added advanced authentication. 10 votes on all posts combined grants role '3'">
+      <created>1604248363264</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1604248363264</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +458,8 @@
     <MESSAGE value="Made the admin page so admins can only see reported items." />
     <MESSAGE value="Bootstrap create page and added route{{}} for security" />
     <MESSAGE value="Removed if-check from blade and only gave the correct data from the controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed if-check from blade and only gave the correct data from the controller" />
+    <MESSAGE value="Added advanced authentication. 10 votes on all posts combined grants role '3'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added advanced authentication. 10 votes on all posts combined grants role '3'" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1035" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600774470128">
@@ -466,18 +474,18 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1060" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1600507167961" />
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604246339294">
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604248366185">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1604246339294" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1604248366185" />
     <state x="1097" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603203380342">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1097" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1603203380342" />
-    <state x="936" y="240" key="run.anything.popup" timestamp="1603203445151">
+    <state x="936" y="240" key="run.anything.popup" timestamp="1604251146636">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="936" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1603203445151" />
+    <state x="936" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1604251146636" />
     <state x="943" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604248280046">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
