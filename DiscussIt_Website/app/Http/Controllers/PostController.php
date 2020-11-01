@@ -31,7 +31,7 @@ class PostController extends Controller
         return view('admin',['post' => $posts]);
     }
     public function myposts(){
-        $posts = Post::all();
+        $posts = DB::table('posts')->WHERE('author','=', auth()->user()->name)->get();
         return view('myposts',['posts' => $posts]);
     }
     public function create(){
