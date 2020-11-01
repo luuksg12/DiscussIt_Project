@@ -30,7 +30,8 @@
                 <h2 class="display-5">Title : {{$post->title}}</h2>
                 <h4>Post number : {{$post->id}} <br>
                     Author : {{$post->author}}</h4>
-                <p class="lead">Message : {{$post->text}}</p>
+                <p>Message : {{$post->text}}</p>
+                <p>Category : {{$post->category}}</p>
                 <p>Votes : {{$post->votes}}</p>
 
                 <form action="/posts/{{$post->id}}" method="POST">

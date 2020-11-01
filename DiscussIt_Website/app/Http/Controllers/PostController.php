@@ -24,6 +24,11 @@ class PostController extends Controller
         $posts = DB::table('posts')->WHERE('title','LIKE', "%".$search."%")->get();
         return view('searchpage',['post' => $posts]);
     }
+    public function searchdropdown(Request $request){
+        $search = $request->get('category');
+        $posts = DB::table('posts')->WHERE('category','=', $search)->get();
+        return view('searchpage',['post' => $posts]);
+    }
     public function findreports(){
         $posts = DB::table('posts')->WHERE('reported','=', 1)->get();
         return view('admin',['post' => $posts]);
@@ -42,6 +47,8 @@ class PostController extends Controller
         $post->text = request('text');
 
         $post->author = auth()->user()->name;
+
+        $post->category = request('category');
 
         $post->save();
         return redirect("/posts");

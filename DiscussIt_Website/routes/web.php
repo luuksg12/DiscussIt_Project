@@ -21,6 +21,7 @@ Route::get('/myposts', '\App\Http\Controllers\PostController@myposts')->middlewa
 Route::get('/admin', '\App\Http\Controllers\PostController@findreports')->middleware('auth','admin')->name('admin');
 Route::get('/searchpage', '\App\Http\Controllers\PostController@searchpage')->middleware('auth')->name('searchpage');
 Route::get('/search','\App\Http\Controllers\PostController@search')->middleware('auth')->name('search');
+Route::get('/searchdropdown','\App\Http\Controllers\PostController@searchdropdown')->middleware('auth')->name('searchdropdown');
 Route::get('/create', '\App\Http\Controllers\PostController@create')->middleware('auth')->name('create');
 Route::post('/posts', '\App\Http\Controllers\PostController@store')->middleware('auth')->name('store');
 Route::delete('/posts/{id}', '\App\Http\Controllers\PostController@destroy')->middleware('auth')->name('destroy');

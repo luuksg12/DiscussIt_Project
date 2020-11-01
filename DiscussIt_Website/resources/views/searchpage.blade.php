@@ -5,6 +5,18 @@
                 <form action="/search" method="GET" class="domain-form">
                     <div class="form-group d-md-flex"> <input type="text" name="search" class="form-control px-4" placeholder="Look for a specific post using its title..."> <input type="submit" class="search-domain btn btn-primary px-5" value="Search Posts"> </div>
                 </form>
+                <form action="/searchdropdown" method="GET" class="domain-form">
+                    <div class="form-group">
+                        <select class="form-control" name="category">
+                            <option>Technology</option>
+                            <option>News</option>
+                            <option>Sports</option>
+                            <option>Science</option>
+                            <option>Culture</option>
+                        </select>
+                    </div>
+                    <input type="submit" class="search-domain btn btn-primary px-5" value="Search by category">
+                </form>
             </div>
         </div>
         @if(isset($post))
@@ -16,6 +28,7 @@
                     Author : {{$posts->author}}</h4>
                 <p class="lead">Message : {{$posts->text}}</p>
                 <p>Votes : {{$posts->votes}}</p>
+                <p>Category : {{$posts->category}}</p>
                 <form action="/posts/{{$posts->id}}" method="POST">
                     @csrf
                     @method('VOTE')

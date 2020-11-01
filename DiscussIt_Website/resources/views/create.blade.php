@@ -12,8 +12,21 @@
                         <input type="text" class="form-control" name="title" placeholder="Enter title">
                     </div>
                     <div class="form-group">
-                        <label class="h4">Password:</label>
+                        <label class="h4">Text:</label>
                         <input type="text" class="form-control" name="text" placeholder="Enter your message...">
+                    </div>
+
+                    <div class="container">
+                        <label class="h4">Select Category</label>
+                        <div class="form-group">
+                            <select class="form-control" name="category">
+                                <option>Technology</option>
+                                <option>News</option>
+                                <option>Sports</option>
+                                <option>Science</option>
+                                <option>Culture</option>
+                            </select>
+                        </div>
                     </div>
                     <button type="submit" class="btn btn-primary mr-auto ml-auto">Make post</button>
                 </form>

@@ -25,11 +25,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Added advanced authentication. 10 votes on all posts combined grants role '3'">
-      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/database/migrations/2020_11_01_165355_add_status_to_users.php" afterDir="false" />
+    <list default="true" id="20f6a701-aa71-4aa0-b615-5d890fd083d9" name="Default Changelist" comment="Added toggle button and an action for advanced authenticated users">
+      <change afterPath="$PROJECT_DIR$/DiscussIt_Website/database/migrations/2020_11_01_174103_add_category_to_posts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussIt_Website/resources/views/searchpage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/resources/views/searchpage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussIt_Website/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,14 +190,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\public\img" />
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\public\css" />
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\views" />
       <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\DiscussIt_Project\DiscussIt_Website\resources\views" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -220,7 +223,7 @@
       <workItem from="1603740918457" duration="2192000" />
       <workItem from="1603792757311" duration="153000" />
       <workItem from="1604157365259" duration="733000" />
-      <workItem from="1604245617175" duration="6178000" />
+      <workItem from="1604245617175" duration="8141000" />
     </task>
     <task id="LOCAL-00001" summary="Re-upload webpage">
       <created>1600358596868</created>
@@ -404,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604248363264</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added toggle button and an action for advanced authenticated users">
+      <created>1604252172927</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1604252172927</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +469,8 @@
     <MESSAGE value="Bootstrap create page and added route{{}} for security" />
     <MESSAGE value="Removed if-check from blade and only gave the correct data from the controller" />
     <MESSAGE value="Added advanced authentication. 10 votes on all posts combined grants role '3'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added advanced authentication. 10 votes on all posts combined grants role '3'" />
+    <MESSAGE value="Added toggle button and an action for advanced authenticated users" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added toggle button and an action for advanced authenticated users" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1035" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600774470128">
@@ -474,21 +485,21 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1060" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1600507167961" />
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604248366185">
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604252192174">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1604248366185" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1604252192174" />
     <state x="1097" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603203380342">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1097" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1603203380342" />
-    <state x="936" y="240" key="run.anything.popup" timestamp="1604251146636">
+    <state x="936" y="240" key="run.anything.popup" timestamp="1604253070291">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="936" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1604251146636" />
-    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604248280046">
+    <state x="936" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1604253070291" />
+    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604253424910">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1604248280046" />
+    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1604253424910" />
   </component>
 </project>

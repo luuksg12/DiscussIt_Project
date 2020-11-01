@@ -50,7 +50,7 @@
                         <a class="nav-link" href={{route('myposts')}}>My posts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href={{route('searchpage')}}>Single post</a>
+                        <a class="nav-link" href={{route('searchpage')}}>Search for a post</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href={{route('create')}}>Create</a>
